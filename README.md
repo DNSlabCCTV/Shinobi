@@ -35,5 +35,6 @@ To use docker:</br>
 Web Address : http://xxx.xxx.xxx.xxx:8080/super</br>
 ## link
 https://shinobi.video/docs/start</br>
+https://gitlab.com/Shinobi-Systems/Shinobi</br>
 </br>
 </html>
