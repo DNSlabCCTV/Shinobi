@@ -18,7 +18,7 @@ Cron Filters can be set based on master account</br>
 <code>sudo su</code></br>
 <code>apt install git -y</code></br>
 <code>git clone https://gitlab.com/Shinobi-Systems/Shinobi.git Shinobi</code></br>
-<code>cd Shinobi</code>
+<code>cd Shinobi</code></br>
 <code>chmod +x INSTALL/ubuntu.sh && INSTALL/ubuntu.sh</code></br>
 ### Shinobi does some of his own questions :
 Shinobi - Do you want to enable superuser access?</br>
