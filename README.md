@@ -20,7 +20,7 @@ Shinobi - Start Shinobi and set to start on boot?</br>
 http://localhost:8080/</br>
 </br>
 To use docker</br> 
-<code>sudo apt install git<code></br>
+<code>sudo apt install git</code></br>
 <code>git clone https://gitlab.com/Shinobi-Systems/ShinobiDocker.git ShinobiDocker && cd ShinobiDocker</code></br>
 <code>apt install docker-compose</code></br>
 <code>sh start-image.sh</code></br>
