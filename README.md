@@ -3,16 +3,16 @@
   
 # Shinobi
 ## Features
-Time-lapse Viewer (Watch a hours worth of footage in a few minutes)
-
-Records IP Cameras and Local Cameras
-Streams by WebSocket, HLS (includes audio), and MJPEG
-Save to WebM and MP4 - Can save Audio
-
-Push Events - When a video is finished it will appear in the dashboard without a refresh
-1 Process for Each Camera to do both, Recording and Streaming
-Cron Filters can be set based on master account
-
+Time-lapse Viewer (Watch a hours worth of footage in a few minutes)</br>
+</br>
+Records IP Cameras and Local Cameras</br>
+Streams by WebSocket, HLS (includes audio), and MJPEG</br>
+Save to WebM and MP4 - Can save Audio</br>
+</br>
+Push Events - When a video is finished it will appear in the dashboard without a refresh</br>
+1 Process for Each Camera to do both, Recording and Streaming</br>
+Cron Filters can be set based on master account</br>
+</br>
 ## Installation
 ### In Ubuntu 16.04:
 <code>sudo su</code></br>
