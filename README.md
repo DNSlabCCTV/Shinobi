@@ -4,7 +4,7 @@
 # Shinobi
 
 ## Installation
-In Ubuntu 16.04</br>
+In Ubuntu 16.04:</br>
 <code>sudo su</code></br>
 <code>apt install git -y</code></br>
 <code>git clone https://gitlab.com/Shinobi-Systems/Shinobi.git Shinobi</code></br>
@@ -26,7 +26,7 @@ To update Shinobi with git and restart :</br>
 </br>
 http://localhost:8080/</br>
 </br>
-To use docker</br> 
+To use docker:</br> 
 <code>sudo apt install git</code></br>
 <code>git clone https://gitlab.com/Shinobi-Systems/ShinobiDocker.git ShinobiDocker && cd ShinobiDocker</code></br>
 <code>apt install docker-compose</code></br>
