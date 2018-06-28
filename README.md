@@ -19,13 +19,10 @@ Shinobi - Database Installation</br>
 Shinobi - Start Shinobi and set to start on boot?</br>
 </br>
 To update Shinobi with git and restart :</br>
-<code>
-cd Shinobi</br>
-git pull</br>
-pm2 restart camera.js</br>
-pm2 restart cron.js</br>
-</code>
-
+<code>cd Shinobi</code></br>
+<code>git pull</code></br>
+<code>pm2 restart camera.js</code></br>
+<code>pm2 restart cron.js</code></br>
 </br>
 http://localhost:8080/</br>
 </br>
