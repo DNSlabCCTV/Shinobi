@@ -8,6 +8,7 @@ In Ubuntu 16.04</br>
 <code>sudo su</code></br>
 <code>apt install git -y</code></br>
 <code>git clone https://gitlab.com/Shinobi-Systems/Shinobi.git Shinobi</code></br>
+<code>cd Shinobi</code>
 <code>chmod +x INSTALL/ubuntu.sh && INSTALL/ubuntu.sh</code></br>
 Shinobi does some of his own questions.</br>
 Shinobi - Do you want to enable superuser access?</br>
@@ -16,6 +17,15 @@ Shinobi - Do you want to use MariaDB or SQLite3?</br>
 Shinobi - Do you want to Install MariaDB? Choose No if you already have it.</br>
 Shinobi - Database Installation</br>
 Shinobi - Start Shinobi and set to start on boot?</br>
+</br>
+To update Shinobi with git and restart :</br>
+<code>
+cd Shinobi</br>
+git pull</br>
+pm2 restart camera.js</br>
+pm2 restart cron.js</br>
+</code>
+
 </br>
 http://localhost:8080/</br>
 </br>
