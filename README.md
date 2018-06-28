@@ -33,5 +33,7 @@ To use docker:</br>
 <code>sh start-image.sh</code></br>
 
 Web Address : http://xxx.xxx.xxx.xxx:8080/super</br>
+## link
+https://shinobi.video/docs/start</br>
 </br>
 </html>
