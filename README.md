@@ -43,6 +43,11 @@ http://localhost:8080/</br>
 <code>sh start-image.sh</code></br>
 
 Web Address : http://xxx.xxx.xxx.xxx:8080/super</br>
+
+### After config:
+Default Login</br>
+Plus Motion Detection</br>
+
 ## link
 https://shinobi.video/docs/start</br>
 https://gitlab.com/Shinobi-Systems/Shinobi</br>
