@@ -58,6 +58,7 @@ Default Login</br>
 
 Plus Motion Detection</br>
 [ Dockerfile ]</br>
+[ pm2Shinobi.yml ]</br>
 
 ## link
 https://shinobi.video/docs/start</br>
