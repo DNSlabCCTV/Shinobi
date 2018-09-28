@@ -47,7 +47,7 @@ Web Address : http://xxx.xxx.xxx.xxx:8080/super</br>
 ## Modify
 ### After config:
 Default Login</br>
-[ docker-entrypoint.sh ]
+[ docker-entrypoint.sh ]</br>
 <code>mysql -u root <  /opt/shinobi/sql/framework.sql</code></br>
 <code>mysql --user=root ccio < /opt/shinobi/sql/default_data.sql</code></br>
 <code>mysql -u root --password="" <<-EOSQL</code></br>
@@ -57,7 +57,7 @@ Default Login</br>
 <code>EOSQL</code></br>
 
 Plus Motion Detection</br>
-[ Dockerfile ]
+[ Dockerfile ]</br>
 
 ## link
 https://shinobi.video/docs/start</br>
