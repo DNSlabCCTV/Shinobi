@@ -60,6 +60,9 @@ Plus Motion Detection</br>
 [ Dockerfile ]</br>
 [ pm2Shinobi.yml ]</br>
 
+## Test API
+![아키텍쳐](testapi.PNG)
+
 ## link
 https://shinobi.video/docs/start</br>
 https://gitlab.com/Shinobi-Systems/Shinobi</br>
