@@ -67,7 +67,7 @@ Web Address : http://xxx.xxx.xxx.xxx:8080/super</br>
 Use Shinobi.ShinobiSetup Function
 
 ##### ■ Delete Cameras in Node.JS
-Use Function
+Use Shinobi.ShinobiDeleteMonitor Function
 
 ## link
 https://shinobi.video/docs/start</br>
