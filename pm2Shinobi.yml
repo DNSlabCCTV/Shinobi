@@ -1,0 +1,14 @@
+apps:
+  - script   : '/opt/shinobi/camera.js'
+    name     : 'Camera-App'
+    kill_timeout  : 5000
+  - script   : '/opt/shinobi/cron.js'
+    name     : 'Cron-App'
+    kill_timeout  : 5000
+  - script   : '/opt/shinobi/plugins/motion/shinobi-motion.js'
+    name     : 'MotionDetect-App'
+    kill_timeout  : 5000
+  - script   : '/opt/shinobi/plugins/opencv/shinobi-opencv.js'
+    name     : 'ObjectDetect-App'
+    kill_timeout  : 5000
+
