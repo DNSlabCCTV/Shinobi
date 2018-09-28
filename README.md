@@ -64,9 +64,10 @@ Web Address : http://xxx.xxx.xxx.xxx:8080/super</br>
 ## Test API
 ![아키텍쳐](testapi.PNG)</br>
 ##### ■ Add Cameras in Node.JS
+Use Shinobi.ShinobiSetup Function
 
 ##### ■ Delete Cameras in Node.JS
-
+Use Function
 
 ## link
 https://shinobi.video/docs/start</br>
