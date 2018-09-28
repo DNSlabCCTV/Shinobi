@@ -44,9 +44,20 @@ http://localhost:8080/</br>
 
 Web Address : http://xxx.xxx.xxx.xxx:8080/super</br>
 
+## Modify
 ### After config:
 Default Login</br>
+[ docker-entrypoint.sh ]
+<code>mysql -u root <  /opt/shinobi/sql/framework.sql</code></br>
+<code>mysql --user=root ccio < /opt/shinobi/sql/default_data.sql</code></br>
+<code>mysql -u root --password="" <<-EOSQL</code></br>
+<code>INSERT INTO mysql.user (host,user,authentication_string,ssl_cipher, x509_issuer, x509_subject) VALUES ('%','root',password(''),'','','');</code></br>
+<code>GRANT ALL PRIVILEGES ON *.* TO 'root'@'%';</code></br>
+<code>FLUSH PRIVILEGES;</code></br>
+<code>EOSQL</code></br>
+
 Plus Motion Detection</br>
+[ Dockerfile ]
 
 ## link
 https://shinobi.video/docs/start</br>
