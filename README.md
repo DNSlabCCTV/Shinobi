@@ -57,6 +57,7 @@ Default Login</br>
 <code>EOSQL</code></br>
 
 Plus Motion Detection</br>
+![Motion Detection](motion.PNG)
 [ Dockerfile ]</br>
 [ pm2Shinobi.yml ]</br>
 
