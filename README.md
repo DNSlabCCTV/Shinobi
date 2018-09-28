@@ -57,12 +57,12 @@ Default Login</br>
 <code>EOSQL</code></br>
 
 Plus Motion Detection</br>
-![Motion Detection](motion.PNG)
+![Motion Detection](motion.png)</br>
 [ Dockerfile ]</br>
 [ pm2Shinobi.yml ]</br>
 
 ## Test API
-![아키텍쳐](testapi.PNG)
+![아키텍쳐](testapi.PNG)</br>
 
 ## link
 https://shinobi.video/docs/start</br>
