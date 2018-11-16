@@ -38,7 +38,7 @@ http://localhost:8080/</br>
 </br>
 
 
-## Modify
+## Addtional Function & Modify
 ### To use docker : 
 <code>sudo apt install git</code></br>
 <code>git clone https://gitlab.com/Shinobi-Systems/ShinobiDocker.git ShinobiDocker && cd ShinobiDocker</code></br>
