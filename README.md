@@ -47,11 +47,21 @@ http://localhost:8080/</br>
 
 Web Address : http://xxx.xxx.xxx.xxx:8080/super</br>
 
-
-
-
-
 ### After config:
+<code>cd ~/ShinobiDocker</code></br>
+<code>rm Dockerfile docker-compose.yml docker-entrypoint.sh pm2Shinobi.yml</code></br>
+<code>cd ~</code></br>
+<code>mkdir test</code></br>
+<code>cd test</code></br>
+<code>git clone https://github.com/DNSlabCCTV/Shinobi </code></br>
+<code>cp ~/test/Shinobi/Dockerfile ~/ShinobiDocker</code></br>
+<code>cp ~/test/Shinobi/docker-compose.yml ~/ShinobiDocker</code></br>
+<code>cp ~/test/Shinobi/docker-entrypoint.sh ~/ShinobiDocker</code></br>
+<code>cp ~/test/Shinobi/pm2Shinobi.yml ~/ShinobiDocker</code></br>
+<code>cp -rf ~/test/Shinobi/cascades ~/ShinobiDocker</code></br>
+<code>cd ~/ShinobiDocker</code></br>
+<code>sh start-image.sh</code></br>
+
 ##### ■ Default Login</br>
 [ docker-entrypoint.sh ]</br>
 <code>mysql -u root <  /opt/shinobi/sql/framework.sql</code></br>
