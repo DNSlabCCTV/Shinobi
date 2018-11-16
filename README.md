@@ -48,6 +48,11 @@ http://localhost:8080/</br>
 Web Address : http://xxx.xxx.xxx.xxx:8080/super</br>
 
 ### After config:
+<code>sudo rm -rf ~/ShinobiDocker </code></br>
+<code>docker stop shinobidocker_shinobi_1 </code></br>
+<code>docker rm shinobidocker_shinobi_1 </code></br>
+<code>docker rmi shinobidocker_shinobi </code></br>
+<code>git clone https://gitlab.com/Shinobi-Systems/ShinobiDocker.git ShinobiDocker && cd ShinobiDocker </code></br>
 <code>cd ~/ShinobiDocker</code></br>
 <code>rm Dockerfile docker-compose.yml docker-entrypoint.sh pm2Shinobi.yml</code></br>
 <code>cd ~</code></br>
