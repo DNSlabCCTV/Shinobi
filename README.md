@@ -13,7 +13,6 @@ Push Events - When a video is finished it will appear in the dashboard without a
 1 Process for Each Camera to do both, Recording and Streaming</br>
 Cron Filters can be set based on master account</br>
 </br>
-## Installation
 ## Docker Container & Addtional Function & Modify
 ### To use docker : 
 <code>sudo apt install git</code></br>
