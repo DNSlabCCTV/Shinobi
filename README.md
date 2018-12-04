@@ -14,31 +14,7 @@ Push Events - When a video is finished it will appear in the dashboard without a
 Cron Filters can be set based on master account</br>
 </br>
 ## Installation
-### In Ubuntu 16.04:
-<code>sudo su</code></br>
-<code>apt install git -y</code></br>
-<code>git clone https://gitlab.com/Shinobi-Systems/Shinobi.git Shinobi</code></br>
-<code>cd Shinobi</code></br>
-<code>chmod +x INSTALL/ubuntu.sh && INSTALL/ubuntu.sh</code></br>
-### Shinobi does some of his own questions :
-Shinobi - Do you want to enable superuser access?</br>
-Shinobi - Do you want to Install FFMPEG?</br>
-Shinobi - Do you want to use MariaDB or SQLite3?</br>
-Shinobi - Do you want to Install MariaDB? Choose No if you already have it.</br>
-Shinobi - Database Installation</br>
-Shinobi - Start Shinobi and set to start on boot?</br>
-</br>
-### To update Shinobi with git and restart :
-<code>cd Shinobi</code></br>
-<code>git pull</code></br>
-<code>pm2 restart camera.js</code></br>
-<code>pm2 restart cron.js</code></br>
-</br>
-http://localhost:8080/</br>
-</br>
-
-
-## Addtional Function & Modify
+## Docker Container & Addtional Function & Modify
 ### To use docker : 
 <code>sudo apt install git</code></br>
 <code>git clone https://gitlab.com/Shinobi-Systems/ShinobiDocker.git ShinobiDocker && cd ShinobiDocker</code></br>
